@@ -1,0 +1,17 @@
+{
+    "include": ["**/*.ts"],
+    "compilerOptions": {
+        "target": "ESNext",
+        "declaration": true,
+        "moduleResolution": "NodeNext",
+        "module": "NodeNext",
+        "resolveJsonModule": true,
+        "outDir": "dist",
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+    },
+}

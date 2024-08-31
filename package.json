@@ -1,0 +1,23 @@
+{
+  "name": "default-export-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "peerDependencies": {
+    "eslint": "^9.9.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@typescript-eslint/parser": "^8.3.0",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import-x": "^4.1.1"
+  }
+}
